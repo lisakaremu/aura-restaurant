@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Restaurant</title>
+     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+ <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="logo">AURA</div>
+
+    <ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#moments">Moments</a></li>
+<li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="https://wa.me/254716628199?text=Hello%20Aura,%20I%20would%20like%20to%20make%20a%20reservation."
+   class="reserve-btn"
+   target="_blank">
+
+    Reserve a Table
+
+</a>
+</nav>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+
+        <p class="hero-subtitle">
+            EXPERIENCE
+        </p>
+
+        <h1>
+            Nairobi's Most Vibrant
+            Dining Destination
+        </h1>
+
+        <p class="hero-text">
+            Exceptional cuisine, handcrafted cocktails,
+            live entertainment, and unforgettable moments.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#contact" class="btn-secondary">
+    Contact Us
+</a>
+        </div>
+
+    </div>
+</section>
+
+<section id="experience" class="experience">
+
+    <div class="experience-image">
+        <img src="images/aura-experience.jpg"
+     alt="Aura Experience">
+    </div>
+
+    <div class="experience-content">
+
+        <p class="section-tag">
+            THE AURA EXPERIENCE
+        </p>
+
+        <h2>
+            Not Just A Meal.
+            An Experience.
+        </h2>
+
+        <p>
+Aura is where exceptional dining, live entertainment, and meaningful moments come together in an atmosphere designed for connection, celebration, and unforgettable evenings.
+</p>
+
+        <div class="experience-features">
+
+    <div class="feature">🍽️ Refined Dining</div>
+    <div class="feature">🎷 Live Entertainment</div>
+
+    <div class="feature">🥂 Special Celebrations</div>
+    <div class="feature">✨ Private Events</div>
+
+</div>
+    </div>
+
+</section>
+<section id="menu" class="signature-dining">
+
+    <div class="section-header">
+
+        <p class="section-tag">
+            SIGNATURE DINING
+        </p>
+
+        <h2>
+            Curated Culinary Masterpieces
+        </h2>
+
+    </div>
+
+    <div class="dining-grid">
+
+        <div class="dish-card" onclick="openMenu('entrees')">
+
+            <img
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    alt="Chef Selection">
+
+            <div class="dish-content">
+<h3>Signature Entrées</h3>
+
+<p>
+Our chef's signature dishes crafted with premium
+ingredients, refined techniques, and exceptional
+presentation.
+</p>
+
+            </div>
+
+        </div>
+
+        <div class="dish-card" onclick="openMenu('cocktails')">
+
+            <img
+                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1200&q=80"
+                alt="Artisan Cocktail">
+
+            <div class="dish-content">
+
+                <h3>Artisan Cocktails</h3>
+
+                <p>
+Expertly crafted cocktails designed to complement every occasion, from intimate dinners to vibrant evenings.
+</p>
+
+            </div>
+
+        </div>
+
+       <div class="dish-card" onclick="openMenu('seafood')">
+
+           <img src="images/seafood.png" alt="Fresh Catch">
+
+            <div class="dish-content">
+
+                <h3>Fresh Catch</h3>
+
+                <p>
+Fresh seafood prepared with precision and creativity, delivering a refined and memorable dining experience.
+</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="moments" class="gallery">
+
+    <div class="section-header">
+
+        <p class="section-tag">
+    MOMENTS
+</p>
+
+<h2>
+    Whatever The Occasion, Aura Sets The Scene.
+</h2>
+
+        <p class="gallery-description">
+    From executive dinners and romantic evenings to live entertainment and milestone celebrations, Aura provides the perfect backdrop for life's most memorable moments.
+</p>
+
+    </div>
+<div class="gallery-slider">
+<div class="slide active">
+    <img src="images/Image 1 - Executive Dinners.png">
+
+    <div class="slide-overlay">
+        <h3>Looking for the perfect setting for an executive dinner?</h3>
+
+        <p>
+            Impress clients, celebrate success, and build meaningful connections in an atmosphere of sophistication and elegance.
+        </p>
+    </div>
+</div>
+<div class="slide">
+    <img src="images/Image 2 - The Proposal.png">
+
+    <div class="slide-overlay">
+        <h3>Planning something intimate, romantic, or unforgettable?</h3>
+
+        <p>
+            From surprise proposals to once-in-a-lifetime moments, Aura creates the perfect setting for unforgettable memories.
+        </p>
+    </div>
+</div>
+<div class="slide">
+    <img src="images/Image 3 - Jazz Night.png">
+
+    <div class="slide-overlay">
+        <h3>Need to unwind after a long week?</h3>
+
+        <p>
+            Live music, handcrafted cocktails, and an atmosphere designed to help you relax, connect, and enjoy the evening.
+        </p>
+    </div>
+</div>
+<div class="slide">
+    <img src="images/Image 4 - Date Night.png">
+
+    <div class="slide-overlay">
+        <h3>A special evening with someone special?</h3>
+
+        <p>
+            Thoughtfully curated dining, candlelit ambiance, and unforgettable moments designed for two.
+        </p>
+    </div>
+</div>
+<div class="slide">
+    <img src="images/Image 5 - Celebrations.png">
+
+    <div class="slide-overlay">
+        <h3>Promotions, birthdays, year-end parties, and milestones?</h3>
+
+        <p>
+            Celebrate life's biggest moments in a setting worthy of the occasion.
+        </p>
+    </div>
+</div>
+<div class="slide">
+    <img src="images/Image 6 - Signature Aura Evening.png">
+
+    <div class="slide-overlay">
+        <h3>Or simply looking for an exceptional night out?</h3>
+
+        <p>
+            Welcome to Aura — where exceptional dining, entertainment, and unforgettable moments come together.
+        </p>
+    </div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+
+    <div class="section-header">
+
+        <p class="section-tag">
+            CONTACT
+        </p>
+
+        <h2>
+            Ready To Experience Aura?
+        </h2>
+
+        <p class="contact-description">
+            Reserve a table, plan a celebration, or speak with our team.
+        </p>
+
+    </div>
+
+    <div class="contact-grid">
+
+        <div class="contact-card">
+
+            <div class="contact-icon">📞</div>
+
+            <h3>Call Us</h3>
+
+            <a href="tel:+254716628199">
+                +254 716 628 199
+            </a>
+
+        </div>
+
+        <div class="contact-card">
+
+            <div class="contact-icon">💬</div>
+
+            <h3>WhatsApp Us</h3>
+
+            <a href="https://wa.me/254716628199?text=Hello%20Aura,%20I%20would%20like%20to%20make%20a%20reservation."
+   target="_blank"
+   class="whatsapp-btn">
+
+    Chat on WhatsApp
+
+</a>
+        </div>
+
+    </div>
+
+</section>
+<div id="menuModal" class="menu-modal">
+
+    <div class="menu-modal-content">
+
+        <span class="close-modal" onclick="closeMenu()">&times;</span>
+
+        <div id="menuContent"></div>
+
+    </div>
+
+</div>
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <h2>AURA</h2>
+
+        <p>Elevate Every Moment</p>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#experience">Experience</a>
+            <a href="#menu">Menu</a>
+            <a href="#moments">Moments</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-contact">
+
+            <p>📞 +254 716 628 199</p>
+
+            <a href="https://wa.me/254716628199?text=Hello%20Aura,%20I'd%20like%20to%20make%20a%20reservation."
+   target="_blank">
+    💬 Chat on WhatsApp
+</a>
+
+        </div>
+
+        <p class="footer-copy">
+            © 2026 Aura. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+</html>
